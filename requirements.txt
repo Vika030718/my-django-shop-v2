@@ -1,0 +1,3 @@
+Created temporary directory: C:\Users\Vika\AppData\Local\Temp\pip-ephem-wheel-cache-_bxrarqq
+Django==2.1.4
+pytz==2018.7
