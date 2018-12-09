@@ -1,0 +1,19 @@
+{% extends "shop/base.html" %}
+{% block content %}
+<div class="product">
+    <div class="row">
+        <div class="col-md-4">
+            <span class="product__category">Category: {{product.category.name}}</span>
+            <div class="product__image">
+                <img src="{{product.image}}" alt="{{product.name}}">
+            </div>
+        </div>
+        <div class="col-md-8">
+            <h2 class="product__title">{{product.name}}</h2>
+            <p class="product__description">{{product.description}}$</p>
+            <p class="product__date">posted at: {{product.pub_date}}</p>
+            <p class="product__price">{{product.price}}$</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
